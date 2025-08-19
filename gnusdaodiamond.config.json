@@ -35,13 +35,6 @@
           ]
         }
       }
-    },
-    "GNUSDAOAccessControlFacet": {
-      "priority": 50,
-      "versions": {
-        "0.0": {
-        }
-      }
     }
   }
 }
