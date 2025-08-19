@@ -1,2 +1,5 @@
 deployments/gnusdaodiamond-hardhat*
 deployments/gnusdaodiamond-localhost*
+deployments/rpc/
+deployments/defender/
+deployments/*-invalid_network-999999.json
