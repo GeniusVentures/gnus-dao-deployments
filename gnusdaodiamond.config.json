@@ -36,26 +36,20 @@
         }
       }
     },
-    "GNUSDAOValueFacet": {
+    "GNUSDAOGovernanceTokenFacet": {
       "priority": 50,
       "versions": {
         "0.0": {}
       }
     },
-    "GNUSDAOGovernanceTokenFacet": {
+    "GNUSDAOGovernanceFacet": {
       "priority": 60,
       "versions": {
         "0.0": {}
       }
     },
-    "GNUSDAOGovernanceFacet": {
-      "priority": 70,
-      "versions": {
-        "0.0": {}
-      }
-    },
     "GNUSDAOVotingMechanismsFacet": {
-      "priority": 80,
+      "priority": 70,
       "versions": {
         "0.0": {}
       }
