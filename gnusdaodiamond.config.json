@@ -39,13 +39,19 @@
     "GNUSDAOGovernanceTokenFacet": {
       "priority": 50,
       "versions": {
-        "0.0": {}
+        "0.0": {
+          "deployInit": "initializeGovernanceToken(string,string,address)",
+          "deployInitArgs": ["GNUSDAO Governance Token", "GDAO", "{{deployer}}"]
+        }
       }
     },
     "GNUSDAOGovernanceFacet": {
       "priority": 60,
       "versions": {
-        "0.0": {}
+        "0.0": {
+          "deployInit": "initializeGovernance(address)",
+          "deployInitArgs": ["{{deployer}}"]
+        }
       }
     },
     "GNUSDAOVotingMechanismsFacet": {
