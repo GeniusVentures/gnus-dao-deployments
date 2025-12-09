@@ -25,29 +25,25 @@
       "priority": 40,
       "versions": {
         "0.0": {
-          "deployInit": "diamondInitialize000()"
+          "deployInit": "diamondInitialize000(string,string)",
+          "deployInitArgs": ["GNUSDAO Governance Token", "GDAO"]
         },
         "1.0": {
-          "deployInit": "diamondInitialize100()"
+          "deployInit": "diamondInitialize100(string,string)",
+          "deployInitArgs": ["GNUSDAO Governance Token", "GDAO"]
         }
       }
     },
     "GNUSDAOGovernanceTokenFacet": {
       "priority": 50,
       "versions": {
-        "0.0": {
-          "deployInit": "initializeGovernanceToken(string,string,address)",
-          "deployInitArgs": ["GNUSDAO Governance Token", "GDAO", "{{deployer}}"]
-        }
+        "0.0": {}
       }
     },
     "GNUSDAOGovernanceFacet": {
       "priority": 60,
       "versions": {
-        "0.0": {
-          "deployInit": "initializeGovernance(address)",
-          "deployInitArgs": ["{{deployer}}"]
-        }
+        "0.0": {}
       }
     },
     "GNUSDAOVotingMechanismsFacet": {
