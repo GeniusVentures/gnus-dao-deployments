@@ -27,10 +27,6 @@
         "0.0": {
           "deployInit": "diamondInitialize000(string,string)",
           "deployInitArgs": ["GNUSDAO Governance Token", "GDAO"]
-        },
-        "1.0": {
-          "deployInit": "diamondInitialize100(string,string)",
-          "deployInitArgs": ["GNUSDAO Governance Token", "GDAO"]
         }
       }
     },
