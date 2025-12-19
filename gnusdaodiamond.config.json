@@ -1,5 +1,5 @@
 {
-  "protocolVersion": 1.0,
+  "protocolVersion": 0.0,
   "protocolInitFacet": "GNUSDAOInitFacet",
   "protocolExcludeFuncSelectors": [],
   "facets": {
@@ -45,7 +45,7 @@
     "GNUSDAOVotingMechanismsFacet": {
       "priority": 70,
       "versions": {
-        "1.0": {}
+        "0.0": {}
       }
     }
   }
