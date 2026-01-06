@@ -50,18 +50,6 @@
         "0xfef41fe4"
       ]
     },
-    "GNUSDAOValueFacet": {
-      "address": "0x3e2fF8C8572d8C6FE5145887806745DE9b64Dc5C",
-      "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
-      "version": 1,
-      "funcSelectors": [
-        "0x4c0f38c2",
-        "0xd13d9066",
-        "0x862b092b",
-        "0xf1850af8",
-        "0x20965255"
-      ]
-    },
     "GNUSDAOGovernanceTokenFacet": {
       "address": "0x6dF3E87D6748A36Dc18Ec36b9ac395a58672360c",
       "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
