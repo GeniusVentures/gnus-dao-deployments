@@ -1,18 +1,18 @@
 {
-  "DiamondAddress": "0x4d638F3c61F7B8BBa4461f80a4aa7315795812EF",
-  "DeployerAddress": "0x6Ec7f5dFb77c7CAbAB4Ed722660b1d8bA1605B43",
+  "DiamondAddress": "0x84Ba28d277ded98b3488C906E90B6435B116D5b4",
+  "DeployerAddress": "0xd4467dA256cD3fC5751f2BC358f52cfa441741A1",
   "DeployedFacets": {
     "DiamondCutFacet": {
-      "address": "0x5Ac2EcdCb66Bef3c4d177c5dA7ae324fa6b23741",
-      "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
+      "address": "0x950C30100e0D4179cBecfDD57b3823E46C875F74",
+      "tx_hash": "0x1d451950d51bf682aa857d03318029ce740a21fce659583b6b9425d539120cc6",
       "version": 0,
       "funcSelectors": [
         "0x1f931c1c"
       ]
     },
     "DiamondLoupeFacet": {
-      "address": "0x0831CB92Da5A74E6c01b8CA355df2f2b33C39a4B",
-      "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
+      "address": "0xeA665e3BbDEb614873DE7F2728724ea33fa4357E",
+      "tx_hash": "0x1d451950d51bf682aa857d03318029ce740a21fce659583b6b9425d539120cc6",
       "version": 0,
       "funcSelectors": [
         "0xcdffacc6",
@@ -23,11 +23,12 @@
       ]
     },
     "GNUSDAOOwnershipFacet": {
-      "address": "0x1F06057087c941ca4a27a5b36fAc4b790af52071",
-      "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
-      "version": 0,
+      "address": "0x87fDe6DCfC1A9CDE3B94642b21F65e443a0fd8c0",
+      "tx_hash": "0x1d451950d51bf682aa857d03318029ce740a21fce659583b6b9425d539120cc6",
+      "version": 1,
       "funcSelectors": [
         "0xa217fddf",
+        "0xf72c0d8b",
         "0x248a9ca3",
         "0x9010d07c",
         "0xca15c873",
@@ -36,25 +37,37 @@
         "0x8da5cb5b",
         "0x36568abe",
         "0xd547741f",
-        "0xf2fde38b",
-        "0xf72c0d8b"
+        "0x93e84d3c",
+        "0x2cf9af0c",
+        "0x01ffc9a7",
+        "0xf2fde38b"
       ]
     },
     "GNUSDAOInitFacet": {
-      "address": "0x81D3fe92D29D2772dF1ddD3dcd9f886f90dA750a",
-      "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
+      "address": "0xE1dcf89e3B94293886e18eE2924e87804A5C29B5",
+      "tx_hash": "0x1d451950d51bf682aa857d03318029ce740a21fce659583b6b9425d539120cc6",
       "version": 1,
       "funcSelectors": [
-        "0xc47ea632",
-        "0xd4fb2a3e",
-        "0xfef41fe4"
+        "0xa217fddf",
+        "0xf72c0d8b",
+        "0x1db0ed12",
+        "0x248a9ca3",
+        "0x9010d07c",
+        "0xca15c873",
+        "0x2f2ff15d",
+        "0x91d14854",
+        "0x36568abe",
+        "0xd547741f",
+        "0x01ffc9a7"
       ]
     },
     "GNUSDAOGovernanceTokenFacet": {
-      "address": "0x6dF3E87D6748A36Dc18Ec36b9ac395a58672360c",
-      "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
+      "address": "0x9796bD23CFe03E2B91C031F2E85D4Df1e94c75f8",
+      "tx_hash": "0x1d451950d51bf682aa857d03318029ce740a21fce659583b6b9425d539120cc6",
       "version": 1,
       "funcSelectors": [
+        "0xa217fddf",
+        "0xf72c0d8b",
         "0x983b2d56",
         "0xdd62ed3e",
         "0x095ea7b3",
@@ -62,15 +75,28 @@
         "0x42966c68",
         "0x79cc6790",
         "0x313ce567",
+        "0x5c19a95c",
+        "0x169db77d",
         "0x81a4a6d8",
+        "0x4c0f38c2",
         "0xb0ca253e",
+        "0x248a9ca3",
+        "0x9010d07c",
+        "0xca15c873",
         "0xbb4d4436",
+        "0x2f2ff15d",
+        "0x91d14854",
         "0xe8a2bf77",
         "0xaa271e1a",
         "0x40c10f19",
         "0x06fdde03",
         "0x8456cb59",
         "0x3092afd5",
+        "0x36568abe",
+        "0xd547741f",
+        "0x93e84d3c",
+        "0x2cf9af0c",
+        "0x01ffc9a7",
         "0x95d89b41",
         "0x18160ddd",
         "0xa9059cbb",
@@ -79,17 +105,20 @@
       ]
     },
     "GNUSDAOGovernanceFacet": {
-      "address": "0x343443Ef92479D762a184a76F1A4a4fdb82743D6",
-      "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
+      "address": "0xC5fcb5b0F3178F08f80DF5eD4471675ed6F91aA6",
+      "tx_hash": "0x1d451950d51bf682aa857d03318029ce740a21fce659583b6b9425d539120cc6",
       "version": 1,
       "funcSelectors": [
         "0xa333658f",
         "0xe0a8f6f5",
         "0x8c5fcdda",
         "0x718b2058",
+        "0x95ccea67",
         "0x0d61b519",
+        "0x6f9fb98a",
+        "0xb4b5ea57",
         "0xce5119ee",
-        "0x011b938f",
+        "0x782d6fe1",
         "0xe26b2bea",
         "0x82442796",
         "0x9f83c4b2",
@@ -100,20 +129,29 @@
         "0x721c3c64",
         "0x43859632",
         "0x55d202a6",
+        "0xfd595250",
         "0x3b665994",
+        "0x1b93a3ee",
         "0x5c975abb",
         "0x9834e30e",
         "0x94a14a34",
+        "0x8a3839c7",
         "0x2c60bbf1",
         "0xa4d31805",
+        "0x548a6594",
+        "0xd48b9a07",
+        "0x57ad6279",
+        "0x210a5e87",
         "0x8e52d9d3",
+        "0x63d61a19",
+        "0xef00ef43",
         "0xb384abef",
         "0x0663af08"
       ]
     },
     "GNUSDAOVotingMechanismsFacet": {
-      "address": "0x3897EcCb9D06e522eE15D3a66D1c6aaF3FAA1a71",
-      "tx_hash": "0x1e642788d89c50374dabf27a6e92ccdc832540c70cbc1871148e0270c2f3bebb",
+      "address": "0x76746920DB4f33eb0EC9BcC73C1E09B41B2C74Dc",
+      "tx_hash": "0x1d451950d51bf682aa857d03318029ce740a21fce659583b6b9425d539120cc6",
       "version": 1,
       "funcSelectors": [
         "0xd88a22cb",
@@ -126,6 +164,25 @@
         "0x82397cce",
         "0x5c623903",
         "0xcc951dba"
+      ]
+    },
+    "GNUSDAOAccessControlFacet": {
+      "address": "0x6C95b3874001543674a5287234dF5B70A4A834f7",
+      "tx_hash": "0x1d451950d51bf682aa857d03318029ce740a21fce659583b6b9425d539120cc6",
+      "version": 1,
+      "funcSelectors": [
+        "0xa217fddf",
+        "0xf72c0d8b",
+        "0x248a9ca3",
+        "0x9010d07c",
+        "0xca15c873",
+        "0x2f2ff15d",
+        "0x91d14854",
+        "0x36568abe",
+        "0xd547741f",
+        "0x93e84d3c",
+        "0x2cf9af0c",
+        "0x01ffc9a7"
       ]
     }
   },
